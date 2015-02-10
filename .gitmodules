@@ -1,0 +1,3 @@
+[submodule "plymouth"]
+	path = plymouth
+	url = git://anongit.freedesktop.org/plymouth
