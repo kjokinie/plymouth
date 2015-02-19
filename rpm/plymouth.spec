@@ -79,11 +79,10 @@ cd ..
 
 %{_sbindir}/*
 %{_sysconfdir}/*
-%{_includedir}/*
 
 %files devel
 %defattr(-,root,root,-)
-%{_includedir}
+%{_includedir}/*
 %{_libdir}/*
 /lib/libply*
 
