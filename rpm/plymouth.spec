@@ -8,6 +8,7 @@ URL:        http://www.freedesktop.org/wiki/Software/Plymouth/
 Source0:    %{name}-%{version}.tar.bz2
 
 Requires:   libpng >= 1.2.16
+BuildRequires: libpng-devel >= 1.2.16
 
 %description
 %{summary}
