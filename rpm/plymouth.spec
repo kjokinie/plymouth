@@ -69,6 +69,9 @@ rm -rf %{buildroot}
 %make_install
 cd ..
 
+%post devel -p /sbin/ldconfig
+%postun devel -p /sbin/ldconfig
+
 %files
 %defattr(-,root,root,-)
 /bin/*
