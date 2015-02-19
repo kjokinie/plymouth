@@ -9,6 +9,7 @@ Source0:    %{name}-%{version}.tar.bz2
 
 Requires:   libpng >= 1.2.16
 BuildRequires: libpng-devel >= 1.2.16
+BuildRequires: systemd-devel
 
 %description
 %{summary}
