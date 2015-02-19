@@ -2,7 +2,7 @@ Name:       plymouth
 Summary:    Plymouth boot splash screen tools
 Version:    0.9.0+git361cec
 Release:    1
-Group:      Base/Boot
+Group:      System/Boot
 License:    GPLv2
 URL:        http://www.freedesktop.org/wiki/Software/Plymouth/
 Source0:    %{name}-%{version}.tar.bz2
